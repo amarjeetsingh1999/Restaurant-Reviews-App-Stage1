@@ -16,5 +16,4 @@ A static webpage was incrementally converted to a mobile-ready web application. 
 * With your server running, visit the site: `http://localhost:8000`.
    
 ## Resources Used
-* [Leaflet.js]((https://leafletjs.com/)) with [Mapbox](https://www.mapbox.com/).
-
+* [Leaflet.js](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
