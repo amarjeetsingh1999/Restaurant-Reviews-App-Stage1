@@ -305,7 +305,7 @@ nav h1 a {
 
 /* ====================== Media Queries ====================== */
 
-@media (min-width: 458px) {
+@media (min-width: 460px) {
   .filter-options {
     text-align: left;
   }
@@ -328,7 +328,7 @@ nav h1 a {
     width: 66%;
   }  
   #restaurants-list li h1 {
-    height: 41px;
+    height: 40px;
   }
 
   .inside header {
@@ -338,7 +338,6 @@ nav h1 a {
     z-index: 1000;
   }
   .inside #map-container {
-    background: blue none repeat scroll 0 0;
     height: 88%;
     position: fixed;
     right: 0;
