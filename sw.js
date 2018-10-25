@@ -72,12 +72,14 @@ self.addEventListener('fetch', function (event) {
 						// to clone it so we have two streams.
 						var responseToCache = response.clone();
 
-						caches.open(CACHE_NAME)
+						return caches.open(CACHE_NAME)
 							.then(function (cache) {
 								cache.put(event.request, responseToCache);
-							});
-
-						return response;
+								return response;
+							})
+							.catch(function(err) {
+								console.log('[ServiceWorker] Error Fetching and Caching new files');
+							})
 					}
 				);
 			})
