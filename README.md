@@ -1,7 +1,7 @@
 # Restaurant Review App Stage 1
 ===============================
 
-## About
+## Overview
 A static webpage was incrementally converted to a mobile-ready web application. A static design was taken that lacks accessibility and was converted to be responsive on different sized displays and accessible for screen reader use. A service worker was also added to begin the process of creating a seamless offline experience for your users.
 
 ## How to Run the App
@@ -17,3 +17,4 @@ A static webpage was incrementally converted to a mobile-ready web application. 
    
 ## Resources Used
 * [Leaflet.js](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/).
+* [Adding a Service Worker](https://developers.google.com/web/fundamentals/codelabs/offline/?authuser=1).
